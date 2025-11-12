@@ -286,7 +286,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
               <Icon name="Truck" size={28} className="text-primary" />
-              <span className="text-xl font-bold">Газель Сервис</span>
+              <span className="text-xl font-bold">Газель Центр </span>
             </div>
             <div className="text-center md:text-right">
               <p className="text-gray-300">© 2024 Газель Сервис. Все права защищены.</p>
