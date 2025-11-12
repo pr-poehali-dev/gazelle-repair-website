@@ -264,6 +264,18 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
+              <Card>
+                <CardContent className="p-0 overflow-hidden">
+                  <iframe 
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa3f8e8f8e8e8e8e8e8e8e8e8e8e8e8e8&amp;source=constructor"
+                    width="100%" 
+                    height="400" 
+                    frameBorder="0"
+                    title="Карта проезда"
+                    className="rounded-lg"
+                  ></iframe>
+                </CardContent>
+              </Card>
             </div>
 
             <Card>
