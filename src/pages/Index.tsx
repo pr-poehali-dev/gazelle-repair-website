@@ -178,7 +178,7 @@ const Index = () => {
               <h2 className="text-4xl font-bold mb-6">О нашем сервисе</h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  <strong className="text-foreground">Газель Сервис</strong> — это команда профессионалов с 15-летним опытом работы. 
+                  <strong className="text-foreground">Газель Центр</strong> — это команда профессионалов с 15-летним опытом работы. 
                   Мы специализируемся исключительно на автомобилях Газель всех модификаций.
                 </p>
                 <p>
