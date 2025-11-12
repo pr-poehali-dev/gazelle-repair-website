@@ -230,7 +230,7 @@ const Index = () => {
               Свяжитесь с нами удобным способом или оставьте заявку
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="space-y-6">
               <Card>
                 <CardContent className="pt-6">
@@ -277,30 +277,6 @@ const Index = () => {
                 </CardContent>
               </Card>
             </div>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Оставьте заявку</CardTitle>
-                <CardDescription>Мы свяжемся с вами в течение 15 минут</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div>
-                    <Input placeholder="Ваше имя" required />
-                  </div>
-                  <div>
-                    <Input type="tel" placeholder="Телефон" required />
-                  </div>
-                  <div>
-                    <Textarea placeholder="Опишите проблему с автомобилем" rows={4} />
-                  </div>
-                  <Button type="submit" className="w-full" size="lg">
-                    <Icon name="Send" size={18} className="mr-2" />
-                    Отправить заявку
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
