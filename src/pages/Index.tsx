@@ -77,7 +77,7 @@ const Index = () => {
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Truck" size={32} className="text-primary" />
-            <span className="text-2xl font-bold">Газель Сервис</span>
+            <span className="text-2xl font-bold">Газель Центр</span>
           </div>
           <div className="hidden md:flex items-center gap-6">
             <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
